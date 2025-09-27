@@ -1,0 +1,29 @@
+numpy==1.26.4
+# torch==2.5.0  # use cuda compatible torch install
+# torchvision==0.20.0
+robomimic @ git+https://github.com/ARISE-Initiative/robomimic.git@9273f9cce85809b4f49cb02c6b4d4eeb2fe95abb  # v0.3.0 w/o needing mujoco_py
+robosuite==1.5.0
+cpgen_envs @ git+ssh://git@github.com/kevin-thankyou-lin/cpgen-envs.git
+hydra-core #==1.3.2
+wandb #==0.18.1
+easydict #==1.9 
+transformers==4.44.2
+opencv-python==4.10.0.84
+einops==0.4.1
+thop==0.1.1-2209072238
+bddl==1.0.1
+future==0.18.2 
+matplotlib
+cloudpickle==2.1.0
+# gym==0.25.2 # install via mamba/conda for gym==0.21.0; pip doesn't allow ...
+# mujoco==2.3.7
+dill==0.3.5.1
+zarr==2.15.0
+pandas==2.2.3
+# pytorch3d==0.3.0
+imagecodecs==2024.9.22  # use this for numpy>2  # python==3.10.0
+av==10.0.0
+diffusers==0.27.2
+huggingface-hub==0.25.1  # for downloading models/datasets
+threadpoolctl==3.1.0
+numcodecs==0.13.0
