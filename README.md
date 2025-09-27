@@ -62,9 +62,10 @@ To download:
 
 ```bash
 git lfs install
-git clone https://huggingface.co/datasets/cpgen/cpgen-policies
-# fetch actual data
-git lfs pull <path/to/file>
+# NOTE: installing full dataset will take some time. You can install pointers using GIT_LFS_SKIP_SMUDGE=1 flag:
+GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/cpgen/cpgen-policies
+# Then, you can pull specific checkpoints, e.g., : 
+git lfs pull -I "policy_checkpoints/ThreePieceAssemblyWide/2025-03-24-05-33-45_E73/*"
 ```
 
 If downloading from hugging face, also need to ensure dataset is in the correct path (see previous section). Ensure the `dataset_path` values in `.hydra/config.yaml` (e.g. `policy_checkpoints/ThreePieceAssemblyWide/2025-03-24-05-33-45_E73/.hydra/config.yaml`) to the location where an actual dataset is stored.
