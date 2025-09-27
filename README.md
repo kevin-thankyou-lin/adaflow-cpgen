@@ -1,7 +1,7 @@
 # Introduction
 
 Policy training repo used in [Constraint-Preserving Data Generation
-for Visuomotor Policy Generalization](cp-gen.github.io), from [AdaFlow: Imitation Learning with Variance-Adaptive Flow-Based Policies](https://arxiv.org/abs/2402.04292).
+for Visuomotor Policy Generalization](https://cp-gen.github.io), from [AdaFlow: Imitation Learning with Variance-Adaptive Flow-Based Policies](https://arxiv.org/abs/2402.04292).
 
 
 **0.** CUDA on workstation
