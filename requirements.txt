@@ -4,6 +4,7 @@ numpy==1.26.4
 robomimic @ git+https://github.com/ARISE-Initiative/robomimic.git@9273f9cce85809b4f49cb02c6b4d4eeb2fe95abb  # v0.3.0 w/o needing mujoco_py
 robosuite @ git+https://github.com/ARISE-Initiative/robosuite.git@89a624455d6049a6c17cc524e8643c77aaf8b80e
 cpgen_envs @ git+ssh://git@github.com/kevin-thankyou-lin/cpgen-envs.git
+mujoco==3.2.6  # compatibility with existing datasets
 hydra-core #==1.3.2
 wandb #==0.18.1
 easydict #==1.9 
